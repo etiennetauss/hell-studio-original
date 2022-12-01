@@ -1,53 +1,64 @@
+@charset "UTF-8";
 /*Estilos de el header y el nav*/
-
-header{
+/*Todo lo que es centro de navegación de los html*/
+/*Estilos del main*/
+/*Edición de imagenes*/
+/* edicon imagenes de tienda y diseños*/
+/*PREGUNTAS/CUIDADOS*/
+/*BODY*/
+/*FOOTER*/
+/*FORMULARIO DE CONTACTO*/
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap";
+/*DEGRADE DE CAJA, COLOR TITULO Y SOMBRA*/
+/*TAMAÑO Y UBICACION DEL TIRULO*/
+/*COLOR DE LAS SUB CAJAS Y SUS BORDES*/
+/*BOTONES*/
+/*TAMAÑO DE LA CAJAS PARA ESCRIBIR*/
+header {
   border: 4px black solid;
   background: linear-gradient(#60d4ea, #020202);
-  
 }
 
-
-h1{
-  color: white  ;
+h1 {
+  color: white;
   text-align: center;
   font-family: cursive;
   font-size: 50px;
 }
 
-/*Todo lo que es centro de navegación de los html*/
-
-.index1{
+.index1 {
   list-style: none;
   display: inline;
   font-family: cursive;
 }
-a{
+
+a {
   color: white;
   margin-left: 10px;
 }
 
-.ulNav{
+.ulNav {
   position: sticky;
   top: 0px;
   text-align: center;
   padding: 10px;
 }
 
-/*Estilos del main*/
-
-.subtitulo1{
+.subtitulo1 {
   text-align: center;
 }
 
-h3{
+h3 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: x-large;
 }
-p{
+
+p {
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 }
-.parrafoGral{ /*Edicion parrafo inicio*/
+
+.parrafoGral {
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
   border-bottom: 4px black dotted;
@@ -55,74 +66,63 @@ p{
   padding-left: 5px;
 }
 
-/*Edición de imagenes*/
-img{
+img {
   width: 300px;
   height: 400px;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
-/* edicon imagenes de tienda y diseños*/
-.imagenes{
+
+.imagenes {
   width: 300px;
   height: 300px;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
-/*PREGUNTAS/CUIDADOS*/
-
-ul{
+ul {
   list-style: image-set("https://www.pngitem.com/pimgs/m/79-794138_fire-icon-png-flame-icon-png-transparent-png.png");
 }
 
-li{
+li {
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*BODY*/
-body{
-  background-color: white; 
+body {
+  background-color: white;
 }
-body:hover{
+body:hover {
   background-color: #686b6d;
   transition: all 2s;
 }
-/*FOOTER*/
 
-.footer{
-  background-color: black;    
+.footer {
+  background-color: black;
 }
-.parrafoFooter{
+
+.parrafoFooter {
   color: whitesmoke;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: smaller;
 }
 
-/*FORMULARIO DE CONTACTO*/
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*DEGRADE DE CAJA, COLOR TITULO Y SOMBRA*/
-
-.contenedor{
+.contenedor {
   background: linear-gradient(#020202, #60d4ea, #020202);
   width: 400px;
   padding: 30px;
   margin: auto;
   margin-top: 100px;
   border-radius: 4px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: rgb(255, 255, 255);
   box-shadow: 7px 13px 37px rgb(255, 222, 35);
 }
-
-/*TAMAÑO Y UBICACION DEL TIRULO*/
-.contenedor h1{
+.contenedor h1 {
   font-size: 24px;
   margin-top: 15px;
   margin-bottom: 10px;
@@ -130,44 +130,38 @@ body:hover{
   text-transform: uppercase;
 }
 
-/*COLOR DE LAS SUB CAJAS Y SUS BORDES*/
-.control{
+.control {
   width: 100%;
   background-color: #cabfbf;
   padding: 10px;
   border-radius: 4px;
   margin-bottom: 20px;
   border: 1px solid #000000;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
 }
+.control:focus {
+  height: 60px;
+}
 
-/*BOTONES*/
-.boton{
+.boton {
   width: 100%;
   height: 45px;
   margin-top: 15px;
   border-radius: 4px;
-  border:none;
+  border: none;
   color: white;
   text-transform: uppercase;
-  background: linear-gradient(to left top,#60d4ea,#020202, #60d4ea);
+  background: linear-gradient(to left top, #60d4ea, #020202, #60d4ea);
   font-size: 20px;
 }
-
-.boton:hover{
-  cursor:pointer;
+.boton:hover {
+  cursor: pointer;
   transform: translateY(-3px);
-  transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+  transition: all cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
 }
-
-.boton:active{
-  transform:translateY(3px);
-}
-
-/*TAMAÑO DE LA CAJAS PARA ESCRIBIR*/
-.control:focus{
-  height: 60px;
+.boton:active {
+  transform: translateY(3px);
 }
 
 /*# sourceMappingURL=estilo.css.map */
